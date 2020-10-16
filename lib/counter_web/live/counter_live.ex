@@ -1,3 +1,9 @@
+
+# to add a pubsub to phoenix:
+# 1. ensure pubsub is in mix.exs deps
+# 2. add PubSub line in application.ex
+# 3. add pubsub_server to config.exs
+
 defmodule CounterWeb.CounterLive do
   use Phoenix.LiveView
 
